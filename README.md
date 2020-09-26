@@ -29,3 +29,21 @@ Copyright 2018-2020, [Capvidia](https://www.capvidia.com/), Metrosage, and proje
 ## License
 
 See [License](LICENSE.md)
+
+## Other Useful Tools
+
+**Free XSLT Transformation Tools**
+
+* [msxsl](https://www.microsoft.com/en-us/download/details.aspx?id=21714)
+* [nxslt](https://github.com/shanselman/nxslt2)
+* XmlNotepad
+    * [GitHub Project](https://github.com/microsoft/XmlNotepad)
+    * [Microsoft Site](https://www.microsoft.com/en-us/download/details.aspx?id=7973)
+* [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html)
+
+**Free XML Schema Validation Tools**
+
+* [Visual Studio Community 2019](https://visualstudio.microsoft.com/vs/community/)
+* XmlNotepad
+    * [GitHub Project](https://github.com/microsoft/XmlNotepad)
+    * [Microsoft Site](https://www.microsoft.com/en-us/download/details.aspx?id=7973)

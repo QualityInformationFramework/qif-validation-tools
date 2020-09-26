@@ -12,6 +12,8 @@ If you want to access and build the source code yourself, just open the file `xm
 
 **Option 2: Download `xml_validate.exe`**
 
+TODO
+
 ### Step 2: Run `easy_validate.bat`
 
 This batch file will allow you to easily run the "xml_validate" tool on **ALL QIF INSTANCE FILES** in the specified directory. The results of the schema validation will be outputted to a unique file corresponding to the instance file. 
