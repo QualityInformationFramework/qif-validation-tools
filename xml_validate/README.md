@@ -1,0 +1,25 @@
+# QIF Instance File Validation Helper
+
+This tool will help you to easily validate QIF instance files with a batch script. The results of the validation will be printed to a text file which will show the validation results. 
+
+## How to use it
+
+### Step 1: Build or Download `xml_validate.exe`
+
+**Option 1: Build `xml_validate.exe`**
+
+If you want to access and build the source code yourself, just open the file `xml_validate.sln` in Visual Studio 2019 or later and build the solution. This will create `xml_validate.exe`. 
+
+**Option 2: Download `xml_validate.exe`**
+
+### Step 2: Run `easy_validate.bat`
+
+This batch file will allow you to easily run the "xml_validate" tool on **ALL QIF INSTANCE FILES** in the specified directory. The results of the schema validation will be outputted to a unique file corresponding to the instance file. 
+
+Inside the batch file, you need to specify a few values of your own. You can do this by opening the file in a text editor. Here's what you need to specify: 
+
+* `xml_validate` - the path to the xml_validate EXE file (from Step 1, above)
+* `xsd` - the path to the QIF schemas. [You need to download these yourself from the QIF Standards website](https://www.qifstandards.org/). 
+* `qif_folder` - the path to the folder containing the instance files to check
+
+Once you have all these variables set, just run the batch file.

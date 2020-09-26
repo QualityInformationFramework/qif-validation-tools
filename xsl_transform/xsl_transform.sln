@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xsl_transform", "xsl_transform.csproj", "{5D8CD2C6-14D5-4DC6-A090-8AFBADDDA51A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D8CD2C6-14D5-4DC6-A090-8AFBADDDA51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8CD2C6-14D5-4DC6-A090-8AFBADDDA51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8CD2C6-14D5-4DC6-A090-8AFBADDDA51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8CD2C6-14D5-4DC6-A090-8AFBADDDA51A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAD33773-478F-4AD5-AE6F-F3C2C296DC44}
+	EndGlobalSection
+EndGlobal
