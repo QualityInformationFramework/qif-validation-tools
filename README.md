@@ -12,7 +12,7 @@ This repository contains additional validation tools for QIF, including addition
 
 ## What's Here
 
-* [**Check QIF3plus Preview**](https://github.com/capvidia-usa/qif-validation-tools/tree/master/Check%203%2B%20Preview) - a preview of some of the enhancements to the XLST checks in the "Check" directory of the QIF standard. This contains all the checks from QIF 3.0, plus many more checks.
+* [**Check QIF3plus Preview**](https://github.com/capvidia-usa/qif-validation-tools/tree/master/Check%20QIF3plus%20Preview) - a preview of some of the enhancements to the XLST checks in the "Check" directory of the QIF standard. This contains all the checks from QIF 3.0, plus many more checks.
 * [**Schema Validation Tool**](https://github.com/capvidia-usa/qif-validation-tools/tree/master/Schema%20Validation%20Tool) - a simple tool to help you quickly validate your QIF instance files. 
 * [**XSLT Check Tool**](https://github.com/capvidia-usa/qif-validation-tools/tree/master/XSLT%20Check%20Tool) - a simple tool to help you run the QIF XSLT checks on your instance files. 
 
