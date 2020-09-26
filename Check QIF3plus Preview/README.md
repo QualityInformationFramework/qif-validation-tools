@@ -27,7 +27,7 @@ The XSLT checks are performed via four .xsl files, namely, CheckDocument.xsl, Ch
 
 In QIF 3.0, there are currently 22 checks that can be executed on an instance file. 
 
-This package proposes 30 new checks, which would bring that total to 52 total checks -- an increase of almost 2.5X.
+This package proposes **30 new checks**, which would bring that total to 52 total checks -- **an increase of almost 2.5X**.
 
 The list of all XSLT checks are listed in the table below.
 
@@ -176,7 +176,7 @@ In case of using other XSLT processors, you need to disable the use of these ext
   <xsl:variable name="use_msxml" select="false()"/>
 ```
 
-> - 👍![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Tip** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)👍
+> 👍![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Tip** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)👍
 > 
 > This method for creating XSLT checks with embedded C# code is a great way to easily create your own powerful custom checks!!
 
