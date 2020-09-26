@@ -6,17 +6,26 @@
 
 # qif3-validation-tools
 
-Additional validation tools for QIF3, including additional XSLT checks, an XSLT checking app, and a QIF schema checking app
+Are you a QIF software developer, but are having a hard time validating your QIF instance files to the schema? Then you have come to the right place. 
+
+This repository contains additional validation tools for QIF3, including additional XSLT checks, an XSLT checking app, and a QIF schema checking app. 
+
+## What's Here
+
+* [**Check QIF3+ Preview**](https://github.com/capvidia-usa/qif-validation-tools/tree/master/Check%203%2B%20Preview) - a preview of some of the enhancements to the XLST checks in the "Check" directory of the QIF standard. This contains all the checks from QIF 3.0, plus many more checks.
+* [**Schema Validation Tool**](https://github.com/capvidia-usa/qif-validation-tools/tree/master/Schema%20Validation%20Tool) - a simple tool to help you quickly validate your QIF instance files. 
+* [**XSLT Check Tool**](https://github.com/capvidia-usa/qif-validation-tools/tree/master/XSLT%20Check%20Tool) - a simple tool to help you run the QIF XSLT checks on your instance files. 
 
 ## Copyright
 
-Copyright 2018-2020, Capvidia, Metrosage, and project contributors
+**Existing XSLT checks in QIF 3.0 are:**
 
-https://www.capvidia.com/
+Copyright © 2018 by Digital Metrology Standards Consortium, Inc. (DMSC)
+
+**The Checking tool, Validation tool, and new Checks are:**
+
+Copyright 2018-2020, [Capvidia](https://www.capvidia.com/), Metrosage, and project contributors
 
 ## License
 
 See [License](LICENSE.md)
-
-
-.\xml_validate.exe "C:\dev\src\qif3-validation-tools\qif3\sampleCheckInstanceFiles3\WIDGET_QIF_PLAN_W_QPIDS.QIF" "C:\dev\src\qif3-validation-tools\qif3\QIFApplications\QIFDocument.xsd"
