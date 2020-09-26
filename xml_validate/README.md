@@ -20,6 +20,6 @@ Inside the batch file, you need to specify a few values of your own. You can do 
 
 * `xml_validate` - the path to the xml_validate EXE file (from Step 1, above)
 * `xsd` - the path to the QIF schemas. [You need to download these yourself from the QIF Standards website](https://www.qifstandards.org/). 
-* `qif_folder` - the path to the folder containing the instance files to check
+* `qif_folder` - the path to the folder containing the instance files to validate
 
 Once you have all these variables set, just run the batch file.
