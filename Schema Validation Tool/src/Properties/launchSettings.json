@@ -1,8 +1,7 @@
 {
   "profiles": {
     "xml_validate": {
-      "commandName": "Project",
-      "commandLineArgs": "\"C:\\dev\\src\\qif3-validation-tools\\qif3\\sampleCheckInstanceFiles3\\WIDGET_QIF_PLAN_W_QPIDS.QIF\" \"C:\\dev\\src\\qif3-validation-tools\\qif3\\QIFApplications\\QIFDocument.xsd\""
+      "commandName": "Project"
     }
   }
 }

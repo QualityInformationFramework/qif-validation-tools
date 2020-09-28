@@ -12,6 +12,8 @@ If you want to access and build the source code yourself, just open the file `xm
 
 **Option 2: Download `xml_validate.exe`**
 
+[Navigate here and download the xml_validate.exe command line tool (for x64-windows)](https://github.com/capvidia-usa/qif-validation-tools/releases/tag/v1.0)
+
 TODO
 
 ### Step 2: Run `easy_validate.bat`

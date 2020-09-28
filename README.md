@@ -1,9 +1,3 @@
-# :warning: TODO :warning:
-
-* The QIFDocument.xsd file in the main download has a signature which slows down the validation and then eventually makes it fail. This needs to be understood and then documented.
-* Create a release with EXE for the validator; add to README
-* Create a release with EXE for the checker; add to README
-
 # qif-validation-tools
 
 Are you a QIF software developer, but are having a hard time validating your QIF instance files to the schema? Then you have come to the right place. 
@@ -25,6 +19,10 @@ Copyright © 2018 by Digital Metrology Standards Consortium, Inc. (DMSC)
 **The Checking tool, Validation tool, and new Checks are:**
 
 Copyright 2018-2020, [Capvidia](https://www.capvidia.com/), Metrosage, and project contributors
+
+## Acknowledgements
+
+This effort was developed with assitance from cooperative agreement 70NANB18H171 between the National Institute of Standards and Technology (NIST) and Metrosage, and with assistance from Capvidia. 
 
 ## License
 

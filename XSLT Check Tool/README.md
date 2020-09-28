@@ -12,6 +12,8 @@ If you want to access and build the source code yourself, just open the file `xs
 
 **Option 2: Download `xsl_transform.exe`**
 
+[Navigate here and download the xsl_transform.exe command line tool (for x64-windows)](https://github.com/capvidia-usa/qif-validation-tools/releases/tag/v1.0)
+
 TODO
 
 ### Step 2: Run `easy_check.bat`
