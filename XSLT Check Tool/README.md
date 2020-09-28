@@ -14,8 +14,6 @@ If you want to access and build the source code yourself, just open the file `xs
 
 [Navigate here and download the xsl_transform.exe command line tool (for x64-windows)](https://github.com/capvidia-usa/qif-validation-tools/releases/tag/v1.0)
 
-TODO
-
 ### Step 2: Run `easy_check.bat`
 
 This batch file will allow you to easily run the "xsl_transform" tool on **ALL QIF INSTANCE FILES** in the specified directory. The results of the XSLT check will be outputted to a unique file corresponding to the instance file. 
