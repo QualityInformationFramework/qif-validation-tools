@@ -28,7 +28,7 @@ Once you have all these variables set, just run the batch file.
 
 #### _Important Note about the QIF Schemas_
 
-> **TLDR**: To use this validation tool, <a href="QIFDocument.xsd" download>replace the standard QIFDocument.xsd file with this one</a>. 
+> **TLDR**: To use this validation tool, [replace the standard QIFDocument.xsd file with this one](https://github.com/capvidia-usa/qif-validation-tools/blob/master/Schema%20Validation%20Tool/QIFDocument.xsd). 
 
 The `QIFDocument.xsd` schema file which is part of the QIF 3.0 download contains a remote reference to the [digital signature schema from the w3c](https://www.w3.org/TR/2002/REC-xmldsig-core-20020212/). You can find this on line 17-18: 
 
