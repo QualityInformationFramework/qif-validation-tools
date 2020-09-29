@@ -25,3 +25,20 @@ Inside the batch file, you need to specify a few values of your own. You can do 
 * `qif_folder` - the path to the folder containing the instance files to validate
 
 Once you have all these variables set, just run the batch file.
+
+#### _Important Note about the QIF Schemas_
+
+> **TLDR**: To use this validation tool, [replace the standard QIFDocument.xsd file with this one](https://github.com/capvidia-usa/qif-validation-tools/blob/master/Schema%20Validation%20Tool/QIFDocument.xsd). 
+
+The `QIFDocument.xsd` schema file which is part of the QIF 3.0 download contains a remote reference to the [digital signature schema from the w3c](https://www.w3.org/TR/2002/REC-xmldsig-core-20020212/). You can find this on line 17-18: 
+
+```
+<xs:import namespace="http://www.w3.org/2000/09/xmldsig#"
+    schemaLocation="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd"/>
+```
+
+This remote reference can cause a significant speed degradation, and eventually a failure, when code is trying to access this schema real-time for validation or other purposes. *If you keep this line as it is, then this Schema Validation tool will fail.* 
+
+In order to avoid this issue, the above schema file has also been included as part of the QIF 3 download package. You need to replace the remote reference to `xmldsig-core-schema.xsd` with a local reference to `xmldsig-core-schema.xsd`. See the comment on line 20 of `QIFDocument.xsd` for instructions on how to do this. 
+
+**Or, to make things even easier, just [download the schema file with the changes here,](https://github.com/capvidia-usa/qif-validation-tools/blob/master/Schema%20Validation%20Tool/QIFDocument.xsd) and replace your existing `QIFDocument.xsd` with this one.** 
