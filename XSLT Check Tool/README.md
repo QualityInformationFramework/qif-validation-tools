@@ -25,3 +25,20 @@ Inside the batch file, you need to specify a few values of your own. You can do 
 * `qif_folder` - the path to the folder containing the instance files to check
 
 Once you have all these variables set, just run the batch file.
+
+## The check results
+
+The results of your check will be written to the file `<myfile>.~.xml`. 
+
+If the QIF instance file is clean, then the results will look like this: 
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<CheckReport>
+  <CheckFormat />
+  <CheckQuality />
+  <CheckSemantic />
+</CheckReport>
+```
+
+If there are issues, then you will find the output for each specific check in the corresponding element in that XML file. 
