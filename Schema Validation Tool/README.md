@@ -12,7 +12,7 @@ If you want to access and build the source code yourself, just open the file `xm
 
 **Option 2: Download `xml_validate.exe`**
 
-[Navigate here and download the xml_validate.exe command line tool (for x64-windows)](https://github.com/capvidia-usa/qif-validation-tools/releases/tag/v1.0)
+[Navigate here and download the xml_validate.exe command line tool (for x64-windows)](https://github.com/QualityInformationFramework/qif-validation-tools/releases/tag/v1.0)
 
 ### Step 2: Run `easy_validate.bat`
 
@@ -28,7 +28,7 @@ Once you have all these variables set, just run the batch file.
 
 #### _Important Note about the QIF Schemas_
 
-> **TLDR**: To use this validation tool, [replace the standard QIFDocument.xsd file with this one](https://github.com/capvidia-usa/qif-validation-tools/blob/master/Schema%20Validation%20Tool/QIFDocument.xsd). 
+> **TLDR**: To use this validation tool, [replace the standard QIFDocument.xsd file with this one](https://github.com/QualityInformationFramework/qif-validation-tools/blob/master/Schema%20Validation%20Tool/QIFDocument.xsd). 
 
 The `QIFDocument.xsd` schema file which is part of the QIF 3.0 download contains a remote reference to the [digital signature schema from the w3c](https://www.w3.org/TR/2002/REC-xmldsig-core-20020212/). You can find this on line 17-18: 
 
@@ -41,4 +41,4 @@ This remote reference can cause a significant speed degradation, and eventually 
 
 In order to avoid this issue, the above schema file has also been included as part of the QIF 3 download package. You need to replace the remote reference to `xmldsig-core-schema.xsd` with a local reference to `xmldsig-core-schema.xsd`. See the comment on line 20 of `QIFDocument.xsd` for instructions on how to do this. 
 
-**Or, to make things even easier, just [download the schema file with the changes here,](https://github.com/capvidia-usa/qif-validation-tools/blob/master/Schema%20Validation%20Tool/QIFDocument.xsd) and replace your existing `QIFDocument.xsd` with this one.** 
+**Or, to make things even easier, just [download the schema file with the changes here,](https://github.com/QualityInformationFramework/qif-validation-tools/blob/master/Schema%20Validation%20Tool/QIFDocument.xsd) and replace your existing `QIFDocument.xsd` with this one.** 
