@@ -26,6 +26,8 @@ Inside the batch file, you need to specify a few values of your own. You can do 
 
 Once you have all these variables set, just run the batch file.
 
+Once you run the batch file, you will find one or more `~.xml` file in the same directory as the batch file. This is where you will find your results!
+
 #### _Important Note about the QIF Schemas_
 
 > **TLDR**: To use this validation tool, [replace the standard QIFDocument.xsd file with this one](https://github.com/QualityInformationFramework/qif-validation-tools/blob/master/Schema%20Validation%20Tool/QIFDocument.xsd). 
